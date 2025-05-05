@@ -1,17 +1,6 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <title>Ma Todo List</title>
-    @livewireStyles
-</head>
-<body>
-    <div style="max-width: 600px; margin: 50px auto;">
-        <h1>Ma Todo List</h1>
-
+<x-app-layout title="Ma Todo List">
+    <div class="max-w-2xl mx-auto bg-white rounded-xl shadow p-6 space-y-4">
+        <h1 class="text-2xl font-bold">Ma Todo List</h1>
         @livewire('todo-list')
     </div>
-
-    @livewireScripts
-</body>
-</html>
+</x-app-layout>
